@@ -1,7 +1,7 @@
     <div class="container">
       <ul class="breadcrumb">
-        <li><a href="#">Help</a></li>
-        <li class="active">Getting Started</li>
+        <li><a href="#">Getting Started</a></li>
+        <li class="active">What Is iNaturalist?</li>
       </ul>
       <div class="row">
         <div class="col-md-9">
@@ -40,12 +40,6 @@
           </div>
         </div>
         
-        <div class="col-md-3" id="sidebar">
-          <div class="list-group">
-            <a href="#what-is-inaturalist" class="list-group-item active">What is iNaturalist?</a>
-            <a href="#what-are-observations" class="list-group-item">What Are Observations?</a>
-            <a href="#what-are-organisms" class="list-group-item">What Are Organisms?</a>
-            <a href="#what-are-identifications" class="list-group-item">What Are Identifications?</a>
-          </div>
-        </div><!--/.sidebar-offcanvas-->
+        <%= render :partial => "sidebar" %>
+        
       </div><!--/row-->
