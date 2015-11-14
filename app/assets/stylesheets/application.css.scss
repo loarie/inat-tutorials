@@ -16,3 +16,19 @@
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {
+  padding-top: 50px;
+}
+.getting-started {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+@font-face {
+    font-family: "Whitney-Book";
+    src: url(Whitney-Book-Pro.otf) format("opentype");
+}
+p, h2 { 
+    font-family: "Whitney-Book", Verdana, Tahoma;
+}
